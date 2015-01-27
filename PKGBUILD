@@ -14,11 +14,11 @@ arch=('i686' 'x86_64')
 url="http://www.unrealtournament2004.com"
 license=('custom')
 depends=('sdl' 'openal' 'steamcmd' 'libstdc++5')
-conflicts='ut2004'
+conflicts=('ut2004')
 install=ut2004.install
 changelog=ChangeLog
 #source=("http://planet64bit.de/fileZ/ut2004-lnxpatch3369.tar.bz2"
-source=("http://downloads.unrealadmin.org/UT2004/Patches/Linux/ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
+source=("ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
     "ut2004.desktop"
     "ut2004-install.sh"
     "ut2004-update.sh"
@@ -30,7 +30,7 @@ source=("http://downloads.unrealadmin.org/UT2004/Patches/Linux/ut2004-lnxpatch$_
     '1119a2bbec7211ee11c939941af3cb48'
     '85623fe9fecd0678e4f12902c22d7272')
 
-build() {
+package() {
 
     # Making sure directories exist.
     install -d $pkgdir/usr/share/{applications,pixmaps,licenses}
@@ -62,7 +62,7 @@ build() {
     ln -s /opt/ut2004/Scripts/ut2004 $pkgdir/usr/bin/ut2004 || return 1
     ln -s /opt/ut2004/Scripts/ut2004-install $pkgdir/usr/bin/ut2004-install || return 1
     ln -s /opt/ut2004/Scripts/ut2004-update $pkgdir/usr/bin/ut2004-update || return 1
-    chmod 755 $pkgdir/usr/bin/*
+    # chmod 755 $pkgdir/usr/bin/*
 
 
     if [ "$CARCH" == "x86_64" ]
@@ -88,4 +88,5 @@ build() {
     ln -s /usr/lib/libopenal.so $pkgdir/opt/ut2004/System/openal.so || return 1
     chmod 644 $pkgdir/opt/ut2004/System/openal.so || return 1
 }
+
 # vim:set ts=2 sw=2 et:
