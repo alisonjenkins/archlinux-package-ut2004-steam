@@ -19,7 +19,7 @@ conflicts=('ut2004')
 install=ut2004.install
 changelog=ChangeLog
 #source=("http://planet64bit.de/fileZ/ut2004-lnxpatch3369.tar.bz2"
-source=("ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
+source=("https://github.com/demon012/archlinux-package-ut2004-steam/raw/master/ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
     "ut2004.desktop"
     "ut2004-install.sh"
     "ut2004-update.sh"
