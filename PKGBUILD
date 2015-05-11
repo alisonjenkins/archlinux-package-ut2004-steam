@@ -1,4 +1,5 @@
-# Maintainer: NiteHogg <keith.b.elliott [at] gmail [dot] com>
+# Maintainer: Alan Jenkins <alan.james.jenkins [at] gmail [dot] com>
+# Contributor: NiteHogg <keith.b.elliott [at] gmail [dot] com>
 # Contributor: Slash <demodevil5 [at] yahoo [dot] com>
 # Contributor: Karsten Anderson <orbitcoder@gmail.com>
 
@@ -7,7 +8,7 @@ epoch=1
 pkgver=3369_2
 _pkgvermaj=3369
 _pkgvermin=2
-pkgrel=1
+pkgrel=2
 pkgdesc="Popular first person shooter, native Linux version, data files from Steam (requires you having had purchased the Steam version)."
 epoch=1
 arch=('i686' 'x86_64')
