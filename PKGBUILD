@@ -12,14 +12,13 @@ pkgrel=4
 pkgdesc="Popular first person shooter, native Linux version, installing data files from Steam (requires you having had purchased the Steam version)."
 epoch=1
 arch=('i686' 'x86_64')
-url="http://www.unrealtournament2004.com"
+url="https://store.steampowered.com/app/13230/"
 license=('custom')
 depends=('sdl' 'openal' 'steamcmd' 'libstdc++5')
 conflicts=('ut2004')
 install=ut2004.install
 changelog=ChangeLog
-#source=("http://planet64bit.de/fileZ/ut2004-lnxpatch3369.tar.bz2"
-source=("https://github.com/demon012/archlinux-package-ut2004-steam/raw/master/ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
+source=("https://github.com/jm2/archlinux-package-ut2004-steam/raw/master/ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
     "ut2004.desktop"
     "ut2004.png"
     "ut2004-install.sh"
