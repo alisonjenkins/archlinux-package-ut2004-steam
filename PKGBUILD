@@ -18,7 +18,7 @@ depends=('sdl' 'openal' 'steamcmd' 'libstdc++5')
 conflicts=('ut2004')
 install=ut2004.install
 changelog=ChangeLog
-source=("https://github.com/jm2/archlinux-package-ut2004-steam/raw/master/ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
+source=("https://github.com/alanjjenkins/archlinux-package-ut2004-steam/raw/master/ut2004-lnxpatch$_pkgvermaj-$_pkgvermin.tar.bz2"
     "ut2004.desktop"
     "ut2004.png"
     "ut2004-install.sh"
