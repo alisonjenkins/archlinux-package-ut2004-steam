@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=UT2004
-Comment=Unreal Tournament 2004
+Name=Unreal Tournament 2004
+Comment=popular first person shooter
 Exec=/opt/ut2004/Scripts/ut2004
 Icon=ut2004
 Terminal=false
