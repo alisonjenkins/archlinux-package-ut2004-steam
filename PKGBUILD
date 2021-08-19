@@ -25,9 +25,8 @@ source=("https://github.com/demon012/archlinux-package-ut2004-steam/raw/master/u
     "ut2004-install.sh"
     "ut2004-update.sh"
     "ut2004.sh")
-
 md5sums=('0fa447e05fe5a38e0e32adf171be405e'
-         'b4ca5855b8fc6d283b49c8df469d61c2'
+         'f952ba5de805cb475f487644fe16f99b'
          '145fb11c4e768ecb65396f51ac29e743'
          '5608b9b891788ae3d6a53afaf2a370d2'
          '1119a2bbec7211ee11c939941af3cb48'
